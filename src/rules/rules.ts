@@ -1,0 +1,81 @@
+import type { CategoryRule } from "../classifier/types";
+
+export const RULES: CategoryRule[] = [
+  {
+    id: "merchant-netflix",
+    category: "subscriptions",
+    pattern: /\bnetflix\b/i,
+    weight: 0.98,
+    description: "Matched known subscription merchant: Netflix",
+  },
+  {
+    id: "merchant-spotify",
+    category: "subscriptions",
+    pattern: /\bspotify\b/i,
+    weight: 0.98,
+    description: "Matched known subscription merchant: Spotify",
+  },
+  {
+    id: "merchant-uber",
+    category: "transport",
+    pattern: /\buber\b/i,
+    weight: 0.95,
+    description: "Matched known transport merchant: Uber",
+  },
+  {
+    id: "merchant-bolt",
+    category: "transport",
+    pattern: /\bbolt\b/i,
+    weight: 0.95,
+    description: "Matched known transport merchant: Bolt",
+  },
+  {
+    id: "merchant-shoprite",
+    category: "groceries",
+    pattern: /\bshoprite\b/i,
+    weight: 0.95,
+    description: "Matched known grocery merchant: Shoprite",
+  },
+  {
+    id: "merchant-amazon",
+    category: "shopping",
+    pattern: /\bamazon\b/i,
+    weight: 0.95,
+    description: "Matched known shopping merchant: Amazon",
+  },
+  {
+    id: "merchant-netflix-domain",
+    category: "subscriptions",
+    pattern: /netflix\.com/i,
+    weight: 0.99,
+    description: "Matched Netflix billing domain",
+  },
+  {
+    id: "keyword-electricity",
+    category: "utilities",
+    pattern: /\b(electricity|power|ekedc|ikedc)\b/i,
+    weight: 0.90,
+    description: "Matched electricity/utilities keyword",
+  },
+  {
+    id: "keyword-fee",
+    category: "fees",
+    pattern: /\b(fee|charge|commission)\b/i,
+    weight: 0.85,
+    description: "Matched banking fee keyword",
+  },
+  {
+    id: "keyword-transfer",
+    category: "transfers",
+    pattern: /\b(transfer|bank transfer)\b/i,
+    weight: 0.85,
+    description: "Matched transfer keyword",
+  },
+  {
+    id: "keyword-refund",
+    category: "income",
+    pattern: /\b(refund|reversal)\b/i,
+    weight: 0.80,
+    description: "Matched refund/reversal keyword",
+  },
+];
