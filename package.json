@@ -5,8 +5,11 @@
   "scripts": {
     "dev": "tsx src/server.ts",
     "build": "tsc -p tsconfig.json",
-    "test": "vitest"
-  },
+      "test": "vitest",
+      "eval": "tsx src/eval/evaluate.ts",
+      "report": "tsx src/eval/report.ts",
+      "cli": "tsx src/cli.ts"
+    },
   "dependencies": {
     "fastify": "^4.23.0"
   },

@@ -72,6 +72,13 @@ export const RULES: CategoryRule[] = [
     description: "Matched transfer keyword",
   },
   {
+    id: "keyword-salary",
+    category: "income",
+    pattern: /\b(salary|payroll|paycheck|wages|monthly salary|deposit)\b/i,
+    weight: 0.95,
+    description: "Matched salary/payroll income keyword",
+  },
+  {
     id: "keyword-refund",
     category: "income",
     pattern: /\b(refund|reversal)\b/i,

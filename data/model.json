@@ -1,0 +1,87 @@
+{
+  "vocab": [
+    "1234",
+    "amazon",
+    "august",
+    "bill",
+    "com",
+    "ekedc",
+    "electricity",
+    "merchant",
+    "mktplace",
+    "netflix",
+    "prime",
+    "salary",
+    "subscription",
+    "trip",
+    "uber",
+    "unknown",
+    "xqz"
+  ],
+  "idf": {
+    "1234": 2.252762968495368,
+    "amazon": 2.252762968495368,
+    "august": 2.252762968495368,
+    "bill": 2.252762968495368,
+    "com": 2.252762968495368,
+    "ekedc": 2.252762968495368,
+    "electricity": 2.252762968495368,
+    "merchant": 2.252762968495368,
+    "mktplace": 2.252762968495368,
+    "netflix": 2.252762968495368,
+    "prime": 2.252762968495368,
+    "salary": 2.252762968495368,
+    "subscription": 2.252762968495368,
+    "trip": 2.252762968495368,
+    "uber": 2.252762968495368,
+    "unknown": 2.252762968495368,
+    "xqz": 2.252762968495368
+  },
+  "classLogPrior": {
+    "subscriptions": -1.791759469228055,
+    "transport": -1.791759469228055,
+    "income": -1.791759469228055,
+    "shopping": -1.791759469228055,
+    "utilities": -1.791759469228055,
+    "unknown": -1.791759469228055
+  },
+  "classTokenCounts": {
+    "subscriptions": {
+      "netflix": 1,
+      "com": 1,
+      "subscription": 1
+    },
+    "transport": {
+      "1234": 1,
+      "uber": 1,
+      "trip": 1
+    },
+    "income": {
+      "salary": 1,
+      "august": 1
+    },
+    "shopping": {
+      "amazon": 1,
+      "mktplace": 1,
+      "prime": 1
+    },
+    "utilities": {
+      "electricity": 1,
+      "bill": 1,
+      "ekedc": 1
+    },
+    "unknown": {
+      "unknown": 1,
+      "merchant": 1,
+      "xqz": 1
+    }
+  },
+  "classTokenTotals": {
+    "subscriptions": 3,
+    "transport": 3,
+    "income": 2,
+    "shopping": 3,
+    "utilities": 3,
+    "unknown": 3
+  }
+}

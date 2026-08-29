@@ -1,0 +1,8 @@
+{
+  "netflix": { "canonicalCategory": "subscriptions", "notes": "Streaming service" },
+  "uber": { "canonicalCategory": "transport", "notes": "Ride share" },
+  "shoprite": { "canonicalCategory": "groceries", "notes": "Supermarket" },
+  "amazon": { "canonicalCategory": "shopping", "notes": "Marketplace order" },
+  "ekedc": { "canonicalCategory": "utilities", "notes": "Electricity utility" },
+  "salary": { "canonicalCategory": "income", "notes": "Payroll deposit" }
+}
