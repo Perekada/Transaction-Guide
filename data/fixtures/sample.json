@@ -1,0 +1,8 @@
+[
+  { "id": "1", "transaction": { "description": "NETFLIX.COM SUBSCRIPTION", "amount": -12.99 }, "label": "subscriptions" },
+  { "id": "2", "transaction": { "description": "UBER TRIP 1234", "amount": -8.5 }, "label": "transport" },
+  { "id": "3", "transaction": { "description": "SALARY AUGUST", "amount": 2500.0 }, "label": "income" },
+  { "id": "4", "transaction": { "description": "AMAZON Mktplace Prime", "amount": -35.0 }, "label": "shopping" },
+  { "id": "5", "transaction": { "description": "ELECTRICITY BILL EKEDC", "amount": -60.0 }, "label": "utilities" },
+  { "id": "6", "transaction": { "description": "UNKNOWN MERCHANT XQZ", "amount": -5.0 }, "label": "unknown" }
+]
